@@ -37,7 +37,7 @@ public class CaEmployeeApplication {
 
     @PostMapping("/")
     public void postHelloWorld(@RequestBody Test test) {
-        log.info("{}", Objects.nonNull(test));
+        log.info("POST: {}", Objects.nonNull(test));
     }
 
     public static void main(String[] args) {

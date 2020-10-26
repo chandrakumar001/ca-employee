@@ -36,4 +36,5 @@ springdoc:
 logging:
   level:
     com.chstore.ca.employee: DEBUG
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
     root: ERROR
