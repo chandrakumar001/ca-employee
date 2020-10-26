@@ -33,9 +33,7 @@ springdoc:
   default-consumes-media-type: application/json
   default-produces-media-type: application/json
 
-#logging:
-#  level:
-#    com.chstore.ca: DEBUG
-#    org.springframework.web.filter.CommonsRequestLoggingFilter: INFO
-#  pattern:
-#    level: "%5p [%mdc] ::: "
+logging:
+  level:
+    com.chstore.ca.employee: DEBUG
+    root: ERROR
