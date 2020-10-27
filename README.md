@@ -18,6 +18,12 @@ Application Referene
      https://theburningmonk.com/2015/05/a-consistent-approach-to-track-correlation-ids-through-microservices/
      https://medium.com/@walkingtreetech/logs-monitoring-in-microservices-using-elk-316bf9c049c4
      https://www.researchgate.net/figure/Microservice-architecture-of-body-weight-management-system_fig5_317423158
+     
+Logging:
+        
+        https://reflectoring.io/tracing-with-spring-cloud-sleuth/
+        https://www.javatpoint.com/introduction-to-distributed-tracing
+             
 Maven
     
     mvn clean install -P quality-checks
