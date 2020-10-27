@@ -40,18 +40,18 @@ Error Message:
  OceRequestContext
  OncePerRequestFilter
  
- https://stackoverflow.com/questions/25433258/what-is-the-x-request-id-http-header
+        https://stackoverflow.com/questions/25433258/what-is-the-x-request-id-http-header
+        
  When you're operating a webservice that is accessed by clients, it might be difficult to correlate requests (that a client can see) with server logs (that the server can see).
  
  The idea of the X-Request-ID is that a client can create some random ID and pass it to the server. The server then include that ID in every log statement that it creates. If a client receives an error it can include the ID in a bug report, allowing the server operator to look up the corresponding log statements (without having to rely on timestamps, IPs, etc).
  
  As this ID is generated (randomly) by the client it does not contain any sensitive information, and should thus not violate the user's privacy. As a unique ID is created per request it does also not help with tracking users.
  
- X-Request-ID,
- X-Correlation-ID
- 
- Correlates HTTP requests between a client and server.	
- X-Request-ID: f058ebd6-02f7-4d3f-942e-904344e8cde
+         X-Request-ID,
+         X-Correlation-ID
+         Correlates HTTP requests between a client and server.	
+         X-Request-ID: f058ebd6-02f7-4d3f-942e-904344e8cde
 
 
 https://jaxenter.com/spring-boot-tutorial-microservices-kubernetes-part-2-135518.html
@@ -66,10 +66,10 @@ Applications with Services called something like AccountService, UserService, Pa
 
 If you have not heard about SOLID, here is the quick break down:
 
-SRP: The Single Responsibility Principle
-OCP: The Open-Closed Principle
-LSP: The Liskov Substitution Principle
-ISP: The Interface Segregation Principle
-DIP: The Dependency Inversion Principle
+        SRP: The Single Responsibility Principle
+        OCP: The Open-Closed Principle
+        LSP: The Liskov Substitution Principle
+        ISP: The Interface Segregation Principle
+        DIP: The Dependency Inversion Principle
 https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-developing-auto-configuration
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/ 
