@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="CaEmployeeApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="com.chstore.ca.employee.CaEmployeeApplication" />
+    <option name="MAIN_CLASS_NAME" value="com.chstore.ca.employee.TestEmployeeApplication" />
     <module name="ca-employee" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.chstore.ca.employee.*" />
+        <option name="PATTERN" value="com.chstore.ca.employee.product.client.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>

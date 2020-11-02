@@ -38,5 +38,9 @@ springdoc:
 logging:
   level:
     com.chstore.ca.employee: DEBUG
+    com.chstore.ca.employee.review.client: DEBUG
     org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
     root: ERROR
+feign:
+  hystrix:
+    enabled: true
